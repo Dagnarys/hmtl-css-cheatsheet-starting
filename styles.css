@@ -1,18 +1,19 @@
+@import url('https://fonts.googleapis.com/css2?family=Chivo+Mono&display=swap');
+
+
 body {
     padding: 0;
     margin: 0;
-    height: 100vh;
+    
     box-sizing: border-box;
     background:linear-gradient(blue,pink);
     background-repeat: no-repeat;
     background-size:100%;
     
-    
-    
-    
 }
-p,h1,h2,h3,h4,h5,h6 {
+p,h1,h2,h3,h4,h5,h6,td {
     margin: 0;
+    font-family: 'Chivo Mono',monospace;
 }
 
 div.header {
@@ -20,6 +21,7 @@ div.header {
     display: flex;
     align-items: center;
     justify-content: center; 
+    padding-bottom: 10px;
 }
 div.header p {
     background-color:rgb(230, 197, 138);
